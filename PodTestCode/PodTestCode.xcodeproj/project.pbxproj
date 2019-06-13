@@ -15,7 +15,7 @@
 		52F6138D22B228E600790C16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F6138C22B228E600790C16 /* main.m */; };
 		52F6139722B228E600790C16 /* PodTestCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F6139622B228E600790C16 /* PodTestCodeTests.m */; };
 		52F613A222B228E600790C16 /* PodTestCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F613A122B228E600790C16 /* PodTestCodeUITests.m */; };
-		52F613B122B22E7700790C16 /* PodFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F613B022B22E7700790C16 /* PodFunction.m */; };
+		52F613B522B2343100790C16 /* PodFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F613B322B2343100790C16 /* PodFunction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		52F6139D22B228E600790C16 /* PodTestCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodTestCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F613A122B228E600790C16 /* PodTestCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodTestCodeUITests.m; sourceTree = "<group>"; };
 		52F613A322B228E600790C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52F613AF22B22E7700790C16 /* PodFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodFunction.h; sourceTree = "<group>"; };
-		52F613B022B22E7700790C16 /* PodFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodFunction.m; sourceTree = "<group>"; };
+		52F613B322B2343100790C16 /* PodFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PodFunction.m; sourceTree = "<group>"; };
+		52F613B422B2343100790C16 /* PodFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PodFunction.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +104,11 @@
 		52F6137C22B228E600790C16 /* PodTestCode */ = {
 			isa = PBXGroup;
 			children = (
+				52F613B222B2343100790C16 /* Helper */,
 				52F6137D22B228E600790C16 /* AppDelegate.h */,
 				52F6137E22B228E600790C16 /* AppDelegate.m */,
 				52F6138022B228E600790C16 /* ViewController.h */,
 				52F6138122B228E600790C16 /* ViewController.m */,
-				52F613AF22B22E7700790C16 /* PodFunction.h */,
-				52F613B022B22E7700790C16 /* PodFunction.m */,
 				52F6138322B228E600790C16 /* Main.storyboard */,
 				52F6138622B228E600790C16 /* Assets.xcassets */,
 				52F6138822B228E600790C16 /* LaunchScreen.storyboard */,
@@ -135,6 +134,15 @@
 				52F613A322B228E600790C16 /* Info.plist */,
 			);
 			path = PodTestCodeUITests;
+			sourceTree = "<group>";
+		};
+		52F613B222B2343100790C16 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				52F613B322B2343100790C16 /* PodFunction.m */,
+				52F613B422B2343100790C16 /* PodFunction.h */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52F6138222B228E600790C16 /* ViewController.m in Sources */,
-				52F613B122B22E7700790C16 /* PodFunction.m in Sources */,
+				52F613B522B2343100790C16 /* PodFunction.m in Sources */,
 				52F6138D22B228E600790C16 /* main.m in Sources */,
 				52F6137F22B228E600790C16 /* AppDelegate.m in Sources */,
 			);
