@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/eddyMake/PodTest.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "Classes", "PodTestCode/PodTestCode/Helper/**/*.{h,m}"
+  spec.source_files  = "Classes", "PodTestCode/PodTestCode/Helper/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
