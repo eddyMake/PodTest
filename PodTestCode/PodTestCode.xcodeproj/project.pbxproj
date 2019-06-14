@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52C0EE8622B34A5900C4882A /* PodFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C0EE8422B34A5900C4882A /* PodFunction.m */; };
 		52F6137F22B228E600790C16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F6137E22B228E600790C16 /* AppDelegate.m */; };
 		52F6138222B228E600790C16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F6138122B228E600790C16 /* ViewController.m */; };
 		52F6138522B228E600790C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F6138322B228E600790C16 /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		52F6138D22B228E600790C16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F6138C22B228E600790C16 /* main.m */; };
 		52F6139722B228E600790C16 /* PodTestCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F6139622B228E600790C16 /* PodTestCodeTests.m */; };
 		52F613A222B228E600790C16 /* PodTestCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F613A122B228E600790C16 /* PodTestCodeUITests.m */; };
-		52F613B522B2343100790C16 /* PodFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F613B322B2343100790C16 /* PodFunction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52C0EE8422B34A5900C4882A /* PodFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PodFunction.m; sourceTree = "<group>"; };
+		52C0EE8522B34A5900C4882A /* PodFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PodFunction.h; sourceTree = "<group>"; };
 		52F6137A22B228E600790C16 /* PodTestCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodTestCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F6137D22B228E600790C16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		52F6137E22B228E600790C16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,8 +54,6 @@
 		52F6139D22B228E600790C16 /* PodTestCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodTestCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F613A122B228E600790C16 /* PodTestCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodTestCodeUITests.m; sourceTree = "<group>"; };
 		52F613A322B228E600790C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52F613B322B2343100790C16 /* PodFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PodFunction.m; sourceTree = "<group>"; };
-		52F613B422B2343100790C16 /* PodFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PodFunction.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +81,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52C0EE8322B34A5900C4882A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				52C0EE8422B34A5900C4882A /* PodFunction.m */,
+				52C0EE8522B34A5900C4882A /* PodFunction.h */,
+			);
+			name = Helper;
+			path = ../../Helper;
+			sourceTree = "<group>";
+		};
 		52F6137122B228E600790C16 = {
 			isa = PBXGroup;
 			children = (
@@ -104,7 +114,7 @@
 		52F6137C22B228E600790C16 /* PodTestCode */ = {
 			isa = PBXGroup;
 			children = (
-				52F613B222B2343100790C16 /* Helper */,
+				52C0EE8322B34A5900C4882A /* Helper */,
 				52F6137D22B228E600790C16 /* AppDelegate.h */,
 				52F6137E22B228E600790C16 /* AppDelegate.m */,
 				52F6138022B228E600790C16 /* ViewController.h */,
@@ -134,15 +144,6 @@
 				52F613A322B228E600790C16 /* Info.plist */,
 			);
 			path = PodTestCodeUITests;
-			sourceTree = "<group>";
-		};
-		52F613B222B2343100790C16 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				52F613B322B2343100790C16 /* PodFunction.m */,
-				52F613B422B2343100790C16 /* PodFunction.h */,
-			);
-			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52F6138222B228E600790C16 /* ViewController.m in Sources */,
-				52F613B522B2343100790C16 /* PodFunction.m in Sources */,
+				52C0EE8622B34A5900C4882A /* PodFunction.m in Sources */,
 				52F6138D22B228E600790C16 /* main.m in Sources */,
 				52F6137F22B228E600790C16 /* AppDelegate.m in Sources */,
 			);

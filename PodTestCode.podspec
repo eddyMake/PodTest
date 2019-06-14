@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/eddyMake/PodTest.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = 'PodTest/**/*.{h,m}'
+  spec.source_files  = "Helper/**/*.{h,m}"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
 
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
-    spec.frameworks = 'Foundation','UIKit'
+  # spec.frameworks = "Foundation","UIKit"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
