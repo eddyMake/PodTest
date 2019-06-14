@@ -1,11 +1,11 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "PodTestCode"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "玩玩而已"
 
   spec.description  = <<-DESC
-    这只是一个建立pod仓库的简单demo
+    eddy测试pod
                    DESC
 
   spec.homepage     = "https://github.com/eddyMake/PodTest"

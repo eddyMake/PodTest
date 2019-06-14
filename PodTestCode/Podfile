@@ -6,8 +6,8 @@ target 'PodTestCode' do
   use_frameworks!
 
   # Pods for PodTestCode
-  pod 'PodTestCode'
-  
+#  pod 'PodTestCode'
+
 target 'PodTestCodeTests' do
     inherit! :search_paths
     # Pods for testing

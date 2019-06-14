@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <PodTestCode/PodFunction.h>
+#import "PodFunction.h"
 
 @interface AppDelegate ()
 

@@ -11,6 +11,8 @@
 @implementation PodFunction
 
 - (void)podFunction
-{}
+{
+    NSLog(@"%@",NSStringFromSelector(_cmd));
+}
 
 @end
