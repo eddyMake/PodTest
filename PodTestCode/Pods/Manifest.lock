@@ -1,0 +1,16 @@
+PODS:
+  - PodTestCode (1.0.1)
+
+DEPENDENCIES:
+  - PodTestCode
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PodTestCode
+
+SPEC CHECKSUMS:
+  PodTestCode: eac77d593c3dd72c0cb13172def28948c11ac826
+
+PODFILE CHECKSUM: 9c82fe11e203794cf90f712f83f66dc0287f40a5
+
+COCOAPODS: 1.7.2
