@@ -11,8 +11,8 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/eddyMake/PodTest"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  # spec.license      = { :type => "MIT", :file => "LICENSE" }
 
   spec.author             = { "lj" => "287638568@qq.com" }
 
