@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "PodTestCode"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "玩玩而已"
 
   spec.description  = <<-DESC
